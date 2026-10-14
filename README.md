@@ -48,6 +48,8 @@ Each branch README or branch-specific section documents its expected output and 
 
 This branch pins the Payload packages to `3.88.0`. It installs a deferred PostgreSQL constraint trigger that raises during `COMMIT` after a Payload transaction has inserted a row.
 
+Related upstream issue: [payloadcms/payload#18653](https://github.com/payloadcms/payload/issues/18653).
+
 Run it with:
 
 ```sh
