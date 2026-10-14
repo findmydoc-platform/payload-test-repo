@@ -33,6 +33,26 @@ Once a reproduction branch is published, do not rebase, force-push, or delete it
 
 Each branch README or branch-specific section documents its expected output and the Payload version under test.
 
+## `repro/drizzle-commit-error`
+
+This branch pins the Payload packages to `3.88.0`. It installs a deferred PostgreSQL constraint trigger that raises during `COMMIT` after a Payload transaction has inserted a row.
+
+Run it with:
+
+```sh
+pnpm install
+docker compose up -d
+pnpm test
+```
+
+Expected output:
+
+```text
+REPRODUCED: commitTransaction resolved, PostgreSQL rolled back, persisted rows: 0
+```
+
+The test intentionally asserts the behavior of the unpatched adapter. If `commitTransaction()` propagates the PostgreSQL error, the test fails because that indicates the adapter behavior has changed.
+
 ## License
 
 MIT

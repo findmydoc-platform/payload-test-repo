@@ -8,11 +8,11 @@ importers:
   .:
     dependencies:
       "@payloadcms/db-postgres":
-        specifier: 3.90.2
-        version: 3.90.2(payload@3.90.2(graphql@16.14.2)(typescript@5.9.3))
+        specifier: 3.88.0
+        version: 3.88.0(payload@3.88.0(graphql@16.14.2)(typescript@5.9.3))
       payload:
-        specifier: 3.90.2
-        version: 3.90.2(graphql@16.14.2)(typescript@5.9.3)
+        specifier: 3.88.0
+        version: 3.88.0(graphql@16.14.2)(typescript@5.9.3)
       pg:
         specifier: 8.23.1
         version: 8.23.1
@@ -745,26 +745,26 @@ packages:
         integrity: sha512-WC5hvVqiuFOcRyz6gKPeJkiVvSMf3scNeAV49CdWtVqxmUlzh8UKR6YHt9yiNkh8LngtzqSlVz07/Ma3ZAzchA==,
       }
 
-  "@payloadcms/db-postgres@3.90.2":
+  "@payloadcms/db-postgres@3.88.0":
     resolution:
       {
-        integrity: sha512-0DgQh5bZTnc8I7RdyE1Tvaj2MpFPGEtz0rbRdEvABYyFnhxSzuwSX0PevxAL4xma6sOdhbSSqOvW4hC3MayS9w==,
+        integrity: sha512-uP2b3yH8MulguWSH7j8vJaFX3ols4fVKPtsvZ49XQvDsafBAAUZjc1aCldo1ozoVfhC46tx4pv0ovtHQc8zdcA==,
       }
     peerDependencies:
-      payload: 3.90.2
+      payload: 3.88.0
 
-  "@payloadcms/drizzle@3.90.2":
+  "@payloadcms/drizzle@3.88.0":
     resolution:
       {
-        integrity: sha512-C5r0gimzaq6ih21jh3VPQNNRxFYCi6JhTgkcbf2c/xGF7MEEzNzDn3DgfFFe4zeDE4iuC9glYrXFs85AKghq8w==,
+        integrity: sha512-qtPVSLjAFnQl1GwaQPhmnYTwCCWgTnRm4ps5yJxmN3RPdLF6S77gvqZMnC4HTeH7YADQJW3nFgQCVYExxWE6hA==,
       }
     peerDependencies:
-      payload: 3.90.2
+      payload: 3.88.0
 
-  "@payloadcms/translations@3.90.2":
+  "@payloadcms/translations@3.88.0":
     resolution:
       {
-        integrity: sha512-BGpXyw22ndzL6URrK28qlk2qIsksH8mbWpU/n8vaTt8W6O87KoniX4lJ82m5o0FR/wjWqzcuVRsE0TNX3/7gHg==,
+        integrity: sha512-AZVQjjW5pKxO+K9ODeh6yw6/EfXK1hxGPw55KzzDC5srO3hjNskgyWtkauKvbz+S0+xFspANbRc4OD/Rg/74WA==,
       }
 
   "@pinojs/redact@0.4.0":
@@ -1266,10 +1266,10 @@ packages:
         integrity: sha512-Yhpw4T9C6hPpgPeA28us07OJeqZ5EzQTkbfwuhsUg0c237RomFoETJgmp2sa3F/41gfLE6G5cqcYwznmeEeOlQ==,
       }
 
-  payload@3.90.2:
+  payload@3.88.0:
     resolution:
       {
-        integrity: sha512-Qn+nRiMEVOrClVg7mkCHqCKc7x5DAKQZ+jZQm6lqtLfHTS6fuGXqeOzgy5/woWquN4awRUCNgIGu2uYVNn5uvQ==,
+        integrity: sha512-O7zuS80bvEGLte+7xZjwN05+ox5BCsGcQT2M6+CTote07JQOOvHJoiuoyQFw6cUElcFTWGMC5dy03w7J7sTYGg==,
       }
     engines: { node: ^18.20.2 || >=20.9.0 }
     hasBin: true
@@ -1493,13 +1493,6 @@ packages:
       {
         integrity: sha512-y/52Mcy7aw3gRm7IrcGDFx/bCk4AhRh2eI9luHOQM86nZsqwiRkkq2GekHXBBD+SmPidc8i2PqtYZl+pWJ8Oeg==,
       }
-
-  sax@1.6.1:
-    resolution:
-      {
-        integrity: sha512-42tBVwLWnaQvW5zc4HbZrTuWccECCZfBi92FDuwtqxasH+JbPB3/FOKb1m222K42R4WxuxzzMsTswfzgtSu64Q==,
-      }
-    engines: { node: ">=11.0.0" }
 
   secure-json-parse@4.1.1:
     resolution:
@@ -1953,14 +1946,14 @@ snapshots:
 
   "@next/env@15.5.27": {}
 
-  "@payloadcms/db-postgres@3.90.2(payload@3.90.2(graphql@16.14.2)(typescript@5.9.3))":
+  "@payloadcms/db-postgres@3.88.0(payload@3.88.0(graphql@16.14.2)(typescript@5.9.3))":
     dependencies:
-      "@payloadcms/drizzle": 3.90.2(@types/pg@8.20.0)(payload@3.90.2(graphql@16.14.2)(typescript@5.9.3))(pg@8.20.0)
+      "@payloadcms/drizzle": 3.88.0(@types/pg@8.20.0)(payload@3.88.0(graphql@16.14.2)(typescript@5.9.3))(pg@8.20.0)
       "@types/pg": 8.20.0
       console-table-printer: 2.12.1
       drizzle-kit: 0.31.7
       drizzle-orm: 0.45.2(@types/pg@8.20.0)(pg@8.20.0)
-      payload: 3.90.2(graphql@16.14.2)(typescript@5.9.3)
+      payload: 3.88.0(graphql@16.14.2)(typescript@5.9.3)
       pg: 8.20.0
       prompts: 2.4.2
       to-snake-case: 1.0.0
@@ -1996,12 +1989,12 @@ snapshots:
       - sqlite3
       - supports-color
 
-  "@payloadcms/drizzle@3.90.2(@types/pg@8.20.0)(payload@3.90.2(graphql@16.14.2)(typescript@5.9.3))(pg@8.20.0)":
+  "@payloadcms/drizzle@3.88.0(@types/pg@8.20.0)(payload@3.88.0(graphql@16.14.2)(typescript@5.9.3))(pg@8.20.0)":
     dependencies:
       console-table-printer: 2.12.1
       dequal: 2.0.3
       drizzle-orm: 0.45.2(@types/pg@8.20.0)(pg@8.20.0)
-      payload: 3.90.2(graphql@16.14.2)(typescript@5.9.3)
+      payload: 3.88.0(graphql@16.14.2)(typescript@5.9.3)
       prompts: 2.4.2
       to-snake-case: 1.0.0
       uuid: 13.0.2
@@ -2036,7 +2029,7 @@ snapshots:
       - sql.js
       - sqlite3
 
-  "@payloadcms/translations@3.90.2":
+  "@payloadcms/translations@3.88.0":
     dependencies:
       date-fns: 4.1.0
 
@@ -2314,10 +2307,10 @@ snapshots:
 
   path-to-regexp@6.3.0: {}
 
-  payload@3.90.2(graphql@16.14.2)(typescript@5.9.3):
+  payload@3.88.0(graphql@16.14.2)(typescript@5.9.3):
     dependencies:
       "@next/env": 15.5.27
-      "@payloadcms/translations": 3.90.2
+      "@payloadcms/translations": 3.88.0
       "@types/busboy": 1.5.4
       ajv: 8.18.0
       bson-objectid: 2.0.4
@@ -2343,7 +2336,6 @@ snapshots:
       qs-esm: 8.0.1
       range-parser: 1.2.1
       sanitize-filename: 1.6.3
-      sax: 1.6.1
       ts-essentials: 10.0.3(typescript@5.9.3)
       tsx: 4.22.4
       undici: 7.29.0
@@ -2485,8 +2477,6 @@ snapshots:
   sanitize-filename@1.6.3:
     dependencies:
       truncate-utf8-bytes: 1.0.2
-
-  sax@1.6.1: {}
 
   secure-json-parse@4.1.1: {}
 
