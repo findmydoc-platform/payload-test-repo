@@ -40,7 +40,7 @@ Once a reproduction branch is published, do not rebase, force-push, or delete it
 
 The first branch predates the timestamp convention and is the documented legacy exception. No sequential register is maintained; before creating a new branch, check the remote branch list and existing READMEs for a matching case.
 
-The original reproduction commit is [`da8a298b7cf22fccb9af85a76a58f57c66ee79bb`](https://github.com/findmydoc-platform/payload-test-repo/commit/da8a298b7cf22fccb9af85a76a58f57c66ee79bb). Later commits on this legacy branch only document the workflow and do not change the test behavior.
+The branch link above points to the latest branch state. Issue reports must link the specific immutable commit that was validated for that report.
 
 Each branch README or branch-specific section documents its expected output and the Payload version under test.
 
