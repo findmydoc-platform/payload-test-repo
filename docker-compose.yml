@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: payload
+      POSTGRES_PASSWORD: payload
+      POSTGRES_USER: payload
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U payload -d payload"]
+      interval: 2s
+      timeout: 5s
+      retries: 15
+    ports:
+      - "5432:5432"

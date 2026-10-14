@@ -1,0 +1,28 @@
+{
+  "name": "payload-test-repo",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "packageManager": "pnpm@11.9.0",
+  "engines": {
+    "node": "24.15.0"
+  },
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "tsx src/smoke.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@payloadcms/db-postgres": "3.90.2",
+    "payload": "3.90.2",
+    "pg": "8.23.1"
+  },
+  "devDependencies": {
+    "@types/node": "24.13.4",
+    "@types/pg": "8.23.1",
+    "prettier": "3.9.6",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3"
+  }
+}
