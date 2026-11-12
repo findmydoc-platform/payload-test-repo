@@ -24,6 +24,7 @@ const main = async (): Promise<void> => {
       await payload.create({
         collection: "repro_items",
         data: { value },
+        context: { skipCacheInvalidation: true },
         req: { transactionID },
       });
       await payload.db.commitTransaction(transactionID);
